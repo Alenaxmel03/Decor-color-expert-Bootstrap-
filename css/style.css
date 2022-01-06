@@ -40,17 +40,30 @@ header {
 
 .navbar-light .navbar-brand {
   color: #fff;
-  font-family: cursive;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   margin-right: 44px;
 }
+
+.navbar-brand  span{
+  color: #fff;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  letter-spacing: 6px;
+}
+.navbar-brand  span:hover{
+  color: #fff;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+  color: #fff;
+}
+
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show > .nav-link {
   color: #fff;
 }
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #fff;
-  text-decoration: underline;
+  color: #7BB6E4;
 }
 header {
   background: url(../img/01.png) center no-repeat;
@@ -153,6 +166,13 @@ footer {
   margin: 5px;
   min-height: 550px;
   border-radius: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.aboutwe_item:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(0.2);
+  transform: scale(1.);
 }
 .about i {
   font-size: 30px;
@@ -190,6 +210,8 @@ footer {
   font-size: 16px;
   margin-bottom: 10px;
 }
+
+
 
 /* ==============Section 4======================== */
 
